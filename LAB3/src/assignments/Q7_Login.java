@@ -30,8 +30,8 @@ public class Q7_Login {
         WebElement passwordInput = driver.findElement(By.id("pass"));
         WebElement loginButton = driver.findElement(By.name("login"));
      // Enter your Facebook credentials
-        emailInput.sendKeys("sourcandy.2511@gmail.com");
-        passwordInput.sendKeys("Sourcandy.11");
+        emailInput.sendKeys("username");
+        passwordInput.sendKeys("password");
         
      // Click on the login button
         loginButton.click();
