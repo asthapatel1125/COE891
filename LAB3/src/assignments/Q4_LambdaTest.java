@@ -32,7 +32,7 @@ public class Q4_LambdaTest {
 		element = driver.findElement(By.id("sampletodotext"));
 		element.click();
 		element.clear();
-		element.sendKeys("Astha Patel");
+		element.sendKeys("your_name");
 		driver.findElement(By.id("addbutton")).click();
 	}
 	

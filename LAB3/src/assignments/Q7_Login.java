@@ -45,7 +45,8 @@ public class Q7_Login {
 
         // Verify the successful login by checking the URL
         String actualUrl = driver.getCurrentUrl();
-        String expectedUrl = "Facebook";
+        String expectedUrl = "https://www.facebook.com/?sk=welcome";
+        System.out.println(actualUrl);
         Assert.assertEquals(actualUrl, expectedUrl);
 
         System.out.println("Login successful. Current URL: " + actualUrl);
